@@ -9,15 +9,11 @@ Grabs stocks data from yahoo-finance and store it in a SQLite3 DB.
 
 It uses stocks list in data/stocks file.
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+```
+npm run start -d
+```
 
 ## Options 
 * -d, --dbsave   save generated data to the DB (in data/buld.db)
@@ -25,14 +21,11 @@ It uses stocks list in data/stocks file.
 * -v, --version  Output the version number
 
 
-```
-npm run start -d
-```
+## Stock Screeners
 
-## Screen Queries
+Can create some stock screeners with queries..
 
-Can create some screeners with queries..
-
+* examples: 
 ```
 -- PEG RATIO
 select * from stocks WHERE pegRatio > 0 AND pegRatio <= 1
@@ -50,7 +43,7 @@ and debtToEquity <= 30
 -- and pegRatio > 0 AND pegRatio <= 2
 
 ```
-
+...and so on
 
 
 ## Help
@@ -63,8 +56,8 @@ npm run help
 
 Contributors names and contact info
 
-ex. Bigghis 
-ex. [@Bigghis](https://github.com/Bigghis)
+* Bigghis 
+[@Bigghis](https://github.com/Bigghis)
 
 ## Version History
 
