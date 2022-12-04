@@ -1,0 +1,24 @@
+{
+  "name": "bulk-financials",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "help": "node index.js --help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.3",
+    "csv-generate": "^4.2.0",
+    "export-to-csv": "^0.2.1",
+    "express": "^4.18.1",
+    "node-worker-threads-pool": "^1.5.1",
+    "sqlite3": "^5.0.11",
+    "yahoo-finance2": "^2.3.6"
+  }
+}
