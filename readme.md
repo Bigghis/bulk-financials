@@ -7,7 +7,7 @@ Grabs stocks data from yahoo-finance and store it in a SQLite3 DB.
 * can only run in Node.js.
 * for personal use only.
 
-It uses stocks list in data/stocks file.
+It uses stocks list in `data/stocks` file.
 
 ### Executing program
 
@@ -16,7 +16,7 @@ npm run start -d
 ```
 
 ## Options 
-* -d, --dbsave   save generated data to the DB (in data/buld.db)
+* -d, --dbsave   save generated data in the DB (in `data/bulK.db`)
 * -h, --help     Output usage information
 * -v, --version  Output the version number
 
@@ -56,7 +56,7 @@ npm run help
 
 Contributors names and contact info
 
-* Bigghis 
+* Pasquale Casciano
 [@Bigghis](https://github.com/Bigghis)
 
 ## Version History
@@ -66,7 +66,7 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the [MIT license](./LICENSE)
 
 ## Acknowledgments
 
