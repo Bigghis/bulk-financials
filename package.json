@@ -19,6 +19,6 @@
     "express": "^4.18.1",
     "node-worker-threads-pool": "^1.5.1",
     "sqlite3": "^5.0.11",
-    "yahoo-finance2": "^2.3.6"
+    "yahoo-finance2": "^2.4.4"
   }
 }
