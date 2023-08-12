@@ -12,7 +12,7 @@ It uses stocks list in `data/stocks` file.
 ### Executing program
 
 ```
-npm run start -d
+node index.js -d
 ```
 
 ## Options 
